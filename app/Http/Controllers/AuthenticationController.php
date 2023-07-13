@@ -25,8 +25,8 @@ class AuthenticationController extends Controller
             ]);
         }
 
-        return $user->createToken('wendi 11')->plainTextToken;
-        }
+        return $user->createToken('user login')->plainTextToken;
+    }
 
     public function logout(Request $request)
     {
